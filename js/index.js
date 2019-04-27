@@ -9,5 +9,5 @@ main.addEventListener('click', function(event) {
 const input = document.querySelector('input');
  
 input.addEventListener('keydown', function(e) {
-  alert('I was clicked!');
+  console.log(e.which);
 });
