@@ -43,7 +43,7 @@ for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
 }
 
-// Capture from parent elements to target
+// Capture from Parent Elements to Target.
 
 divs = document.querySelectorAll('div');
  
